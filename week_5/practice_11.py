@@ -1,6 +1,5 @@
 import tkinter as tk
 from tkinter import messagebox
-from PIL import Image, ImageTk
 
 def welcomeMessage(username):
 
@@ -20,7 +19,7 @@ def welcomeMessage(username):
 def submit():
     username = username_entry.get()
     password = password_entry.get()
-
+    
     if username == "Mary" and password == "cos102":
         welcomeMessage(username)
     else:

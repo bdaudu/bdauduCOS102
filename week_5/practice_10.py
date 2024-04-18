@@ -8,16 +8,16 @@ def button_click():
 
     result = messagebox.askyesno("Confirmation","Do you want to continue?")
 
-    root = tk.Tk()
-    root.title("Home Page")
-    root.geometry("300x100")
+root = tk.Tk()
+root.title("Home Page")
+root.geometry("300x100")
 
-    label = tk.Label(root, text = "Hello Friend \n")
-    label.pack()
+label = tk.Label(root, text = "Hello Friend \n")
+label.pack()
 
-    button = tk.Button(root, text = "Click Me!", command = button_click)
-    button.pack()
+button = tk.Button(root, text = "Click Me!", command = button_click)
+button.pack()
 
-    button.config(fg = "red", bg = "yellow")
+button.config(fg = "red", bg = "yellow")
 
-    root.mainloop()
+root.mainloop()
