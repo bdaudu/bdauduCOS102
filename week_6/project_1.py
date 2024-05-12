@@ -47,7 +47,7 @@ def weight_and_location():
         messagebox.showerror("Error!", "Sorry. An error has ocurred")
     
 window = tk.Tk()
-window.title("Simi Sercives Weight and Location Check")
+window.title("Simi Services Weight and Location Check")
 window.geometry("500x400")
 window.config(bg = "black")
 
